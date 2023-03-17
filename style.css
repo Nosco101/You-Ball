@@ -931,7 +931,7 @@ header .extras #hamburger .bars .bar:nth-child(3){top:calc(100% - 2px);}
 
 
 .MultiCarousel .leftLst {
-	left: -40px;
+	left: -25px;
     position: absolute;
 	border-radius: 50%;
 	top: calc(50% - 20px);
@@ -991,7 +991,7 @@ header .extras #hamburger .bars .bar:nth-child(3){top:calc(100% - 2px);}
 
 
 .MultiCarousel .rightLst {
-	right: -40px;
+	right: -25px;
   position: absolute;
 	border-radius: 50%;
 	top: calc(50% - 20px);
