@@ -1,4 +1,9 @@
 $(document).ready(function () {
+   var loader = document.getElementById("preloader");
+   window.addEventListener("load", function() {
+    loader.style.display = "none";
+   })
+
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
     var itemWidth = "";
@@ -12,9 +17,6 @@ $(document).ready(function () {
     });
 
     ResCarouselSize();
-
-
-
 
     $(window).resize(function () {
         ResCarouselSize();

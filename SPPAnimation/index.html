@@ -28,7 +28,7 @@
             <div id="frame-id10" class="frame1"><div id="boll1"></div></div>
         </div>
     </div>
-    
+
     <div id="mini-pyramid-container">
         <div id="mini-top-row-container">
             <div class="mini-ball1"></div>
@@ -50,9 +50,10 @@
         </div>
     </div>
 
-    <div id="title-container">
-        <img src="SPP_Logo_Transparent_Background.png" id="title-img" alt=" ">
+    <div id="preloader-logo-container">
+        <img src="SPP_Logo_Transparent_Background.png" id="preloader-logo-img" alt=" ">
     </div>
+
     <style>
         body {
     display: flex;
@@ -91,7 +92,7 @@
     transition: visibility 0s, opacity 0.5s;
 }
 
-#top-row-container, 
+#top-row-container,
 #third-row-container,
 #second-row-container,
 #bottom-row-container {
@@ -317,7 +318,7 @@ body:hover #frame {
     }
 }
 
-#mini-top-row-container, 
+#mini-top-row-container,
 #mini-third-row-container,
 #mini-second-row-container,
 #mini-bottom-row-container {
@@ -537,7 +538,7 @@ body:hover #frame {
             pyramidContainer.classList.add('remove-pyramid-container')
             miniPyramid.style.display = 'flex';
         }, 3000)
-        
+
         miniPyramid.addEventListener('mouseover', () => {
             miniBall1.classList.add('bounce-ball');
             miniBall2.classList.add('bounce-ball2');
