@@ -1,0 +1,492 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+
+    /* display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s; */
+
+    opacity: 1;
+    animation: fade 3s linear;
+}
+
+@keyframes fade {
+    0% { opacity: 0 }
+    15%, 85% { opacity: 1 }
+    100% {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.remove-modal-background {
+    visibility: hidden;
+    opacity: 0;
+
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.modal-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background: transparent;
+    z-index: 3;
+    border-radius: 5px;
+    /* border: 1px solid #000; */
+    width: 430px;
+    margin: auto;
+    font-weight: 500;
+}
+
+#pyramid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: fit-content;
+    height: fit-content;
+    top: -21px;
+    /* border: 1px solid blue; */
+    /* position: relative; */
+    opacity: 1;
+    animation: fade-container 3s linear;
+}
+
+@keyframes fade-container {
+    0% { opacity: 0 }
+    15%, 85% { opacity: 1 }
+    100% {
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+  }
+
+.remove-pyramid-container {
+    visibility: hidden;
+    opacity: 0;
+
+    transition: visibility 0s, opacity 0.5s;
+}
+
+#top-row-container, 
+#third-row-container,
+#second-row-container,
+#bottom-row-container {
+    /* width: 500px; */
+    height: 80px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boll1 {
+    background: #f7adc6;
+}
+
+#boll2 {
+    background: #7ad1eb;
+}
+
+#boll3 {
+    background: #613b1a;
+}
+
+#boll4 {
+    background: #070707;
+}
+
+#boll5 {
+    background: #603d94;
+}
+
+#boll6 {
+    background: #458bc7;
+}
+
+#boll7 {
+    background: #0d8545;
+}
+
+#boll8 {
+    background: #f8e019;
+}
+
+#boll9 {
+    background: #f77d30;
+}
+
+#boll10 {
+    background: #d41e33;
+}
+
+#boll1, #boll2, #boll3, #boll4, #boll5,
+#boll6, #boll7, #boll8, #boll9, #boll10 {
+	/* background: #f00; */
+	border-radius: 100%;
+	height: 55px;
+	width: 55px;
+	position: absolute;
+	bottom: 0;
+	/* left: 0; */
+	animation: studs 0.15s ease-out infinite alternate;
+
+}
+body:hover #boll,
+body:hover #frame {
+	animation-play-state: paused;
+}
+
+.frame1 {
+    top: -600px;
+    animation: gravity 2s ease-in both;
+}
+
+.frame2 {
+    top: -600px;
+    animation: gravity 1.5s ease-in both;
+}
+
+.frame3 {
+    top: -600px;
+    animation: gravity 1.7s ease-in both;
+}
+
+.frame4 {
+    top: -600px;
+    animation: gravity 1.1s ease-in both;
+}
+
+.frame5 {
+    top: -600px;
+    animation: gravity 1.85s ease-in both;
+}
+
+.frame6 {
+    top: -600px;
+    animation: gravity 1.35s ease-in both;
+}
+
+.frame7 {
+    top: -600px;
+    animation: gravity 1.45s ease-in both;
+}
+
+.frame8 {
+    top: -600px;
+    animation: gravity 1.32s ease-in both;
+}
+
+.frame9 {
+    top: -600px;
+    animation: gravity 1.7s ease-in both;
+}
+
+.frame10 {
+    top: -600px;
+    animation: gravity 2.5s ease-in both;
+}
+
+.frame1, .frame2, .frame3, .frame4, .frame5,
+.frame6, .frame7, .frame8, .frame9, .frame10 {
+    /* top: -600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	position: relative;
+	height: 300px;
+    width: 100px;
+	/* animation: gravity 4s ease-in both; */
+
+    /* border: 1px solid blue; */
+}
+
+.new-frame {
+    top: -600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	position: relative;
+	height: 300px;
+    width: 100px;
+}
+
+@keyframes studs {
+	to {
+		bottom: 100%;
+        /* top: 0%; */
+	}
+}
+@keyframes gravity{
+	to {
+		height: 0px;
+		margin-top: 700px;
+	}
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 500px; */
+    font-family: avenir;
+    font-weight: 600;
+    font-size: 25px;
+    /* border: 1px solid gray;
+    border-radius: 10px; */
+    padding: 10px;
+
+    /* position: absolute; */
+    left: -1200px;
+    -webkit-animation: slide 2s forwards;
+    /* -webkit-animation-delay: 2s; */
+    animation: slide 2s forwards;
+    /* animation-delay: 2s; */
+}
+
+#title {
+    width: 370px;
+}
+
+#title-img {
+    width: 715px;
+}
+
+@-webkit-keyframes slide {
+    25%, 85% { left: 0; }
+    100% { left: 1200px }
+}
+
+@keyframes slide {
+    25%, 85% { left: 0; }
+    100% { left: 1200px }
+}
+
+#mini-pyramid-container {
+    cursor: pointer;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid red; */
+
+    animation: fade-in 1s linear;
+}
+
+.fade-in-mini-pyramid-container {
+
+}
+
+@keyframes fade-in {
+    0% { opacity: 0 }
+    /* 15%, 85% { opacity: 1 } */
+    100% {
+        opacity: 1;
+        display: flex;
+        /* visibility: hidden; */
+    }
+}
+
+#mini-top-row-container, 
+#mini-third-row-container,
+#mini-second-row-container,
+#mini-bottom-row-container {
+    /* width: 500px; */
+    height: 80px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mini-ball1,
+#mini-ball2,
+#mini-ball3,
+#mini-ball4,
+#mini-ball5,
+#mini-ball6,
+#mini-ball7,
+#mini-ball8,
+#mini-ball9,
+#mini-ball10 {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 22.5px;
+    pointer-events: none;
+}
+
+.mini-ball1 {
+    background: #d41e33;
+}
+
+#mini-ball2 {
+    background: #f77d30;
+}
+
+#mini-ball3 {
+    background: #f8e019;
+}
+
+#mini-ball4 {
+    background: #0d8545;
+}
+
+#mini-ball5 {
+    background: #458bc7;
+}
+
+#mini-ball6 {
+    background: #603d94;
+}
+
+#mini-ball7 {
+    background: #070707;
+}
+
+#mini-ball8 {
+    background: #613b1a;
+}
+
+#mini-ball9 {
+    background: #7ad1eb;
+}
+
+#mini-ball10 {
+    background: #f7adc6;
+}
+
+.bounce-ball {
+    animation: bounce 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from { transform: translate3d(0, 0, 0);     }
+    to   { transform: translate3d(0, 10px, 0); }
+}
+
+.bounce-ball2 {
+    animation: bounce2 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce2 {
+    from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball3 {
+    animation: bounce3 0.18s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce3 {
+    from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball4 {
+    animation: bounce4 0.33s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce4 {
+    from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball5 {
+    animation: bounce5 0.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce5 {
+    from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, -10px, 0); }
+}
+
+.bounce-ball6 {
+    animation: bounce6 0.28s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce6 {
+    from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball7 {
+    animation: bounce7 0.34s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce7 {
+   from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball8 {
+    animation: bounce8 0.19s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce8 {
+   from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball9 {
+    animation: bounce9 0.39s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce9 {
+   from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
+
+.bounce-ball10 {
+    animation: bounce7 0.17s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce10 {
+   from { transform: translate3d(0, 10px, 0);     }
+    to   { transform: translate3d(0, 0, 0); }
+}
