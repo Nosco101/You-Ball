@@ -1,0 +1,919 @@
+<html lang="en" class="has-scroll-init has-scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>You Ball</title>
+        <link rel="stylesheet" href="reset.css">
+        <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/nickainley" rel="stylesheet">
+
+
+    </head>
+
+
+
+    <body class="active animateIn">
+        <div class="pageLoader hidden">
+            <div class="loadContent animate">
+                <div class="logo">
+                    <div class="logoWrapper">
+
+                        <!-- <svg version="1.1" class="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 169.4 114.2" style="enable-background:new 0 0 169.4 114.2;" xml:space="preserve">
+                            <g>
+                                <path class="st0" d="M165.5,86.1c-0.9,4.4-2,9.9-3.3,12.6c-1.3,2.7-3.1,4.9-5.3,6.5c-2.2,1.6-4.9,2.7-8.1,3.3
+                                        c-3.2,0.6-7.2,0.9-12,0.9c-4.3,0-7.9-0.2-10.8-0.7c-2.9-0.5-5.2-1.3-6.9-2.5c-1.7-1.2-2.9-2.9-3.6-5.1c-0.7-2.2-1-7-1-10.5V18.9
+                                        c0-3.1,0.1-5.6,0.4-7.5c0.3-1.9,0.9-3.4,1.8-4.4c0.9-1.1,2.2-1.8,3.9-2.2c1.7-0.4,3.9-0.7,6.7-0.7V0H42.1v3.9
+                                        c2.8,0.1,5,0.3,6.7,0.7c1.7,0.4,3,1.2,3.9,2.2c0.9,1.1,1.5,2.5,1.8,4.4c0.3,1.9,0.4,4.4,0.4,7.5v71.8c0,3.5-0.3,8.3-1,10.5
+                                        c-0.7,2.2-1.9,3.9-3.6,5.1c-1.7,1.2-4,2-6.9,2.5c-2.9,0.4-6.5,0.7-10.7,0.7c-4.8,0-8.8-0.3-12-0.9c-3.2-0.6-5.9-1.7-8.1-3.3
+                                        c-2.2-1.6-3.9-3.8-5.3-6.5C6,96,4.9,90.5,3.9,86.1H0l2,28.1h165.5l2-28.1H165.5z M96.3,95.1c0,2.9-0.2,5.2-0.5,7
+                                        c-0.3,1.8-0.9,3.2-1.9,4.2c-0.9,1-2.2,1.7-4,2.1c-0.8,0.2-1.6,0.3-2.6,0.5c-1.8,0.2-3.6,0.2-5.4,0c-1-0.1-1.8-0.3-2.6-0.5
+                                        c-1.7-0.4-3-1.1-3.9-2.1c-0.9-1-1.5-2.4-1.9-4.2c-0.3-1.8-0.5-4.2-0.5-7V18c0-2.9,0.1-5.2,0.4-7c0.3-1.8,0.8-3.2,1.7-4.2
+                                        c0.8-1,2-1.7,3.5-2.1c0.6-0.1,1.3-0.3,2-0.4C83,4,85.4,4,87.7,4.3c1.2,0.1,2.3,0.3,3,0.5c1.5,0.4,2.7,1.1,3.5,2.1
+                                        c0.8,1,1.4,2.4,1.7,4.2c0.3,1.8,0.4,4.1,0.4,7V95.1z">
+                                </path>
+                            </g>
+                        </svg> -->
+
+                        <div class="nonvisible">
+                           <iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/R9LrSuGqQRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="logoAnimWrapper">
+
+                        <!-- <svg version="1.1" class="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 169.4 114.2" style="enable-background:new 0 0 169.4 114.2;" xml:space="preserve">
+                            <g>
+                                <path class="st0" d="M165.5,86.1c-0.9,4.4-2,9.9-3.3,12.6c-1.3,2.7-3.1,4.9-5.3,6.5c-2.2,1.6-4.9,2.7-8.1,3.3
+                                        c-3.2,0.6-7.2,0.9-12,0.9c-4.3,0-7.9-0.2-10.8-0.7c-2.9-0.5-5.2-1.3-6.9-2.5c-1.7-1.2-2.9-2.9-3.6-5.1c-0.7-2.2-1-7-1-10.5V18.9
+                                        c0-3.1,0.1-5.6,0.4-7.5c0.3-1.9,0.9-3.4,1.8-4.4c0.9-1.1,2.2-1.8,3.9-2.2c1.7-0.4,3.9-0.7,6.7-0.7V0H42.1v3.9
+                                        c2.8,0.1,5,0.3,6.7,0.7c1.7,0.4,3,1.2,3.9,2.2c0.9,1.1,1.5,2.5,1.8,4.4c0.3,1.9,0.4,4.4,0.4,7.5v71.8c0,3.5-0.3,8.3-1,10.5
+                                        c-0.7,2.2-1.9,3.9-3.6,5.1c-1.7,1.2-4,2-6.9,2.5c-2.9,0.4-6.5,0.7-10.7,0.7c-4.8,0-8.8-0.3-12-0.9c-3.2-0.6-5.9-1.7-8.1-3.3
+                                        c-2.2-1.6-3.9-3.8-5.3-6.5C6,96,4.9,90.5,3.9,86.1H0l2,28.1h165.5l2-28.1H165.5z M96.3,95.1c0,2.9-0.2,5.2-0.5,7
+                                        c-0.3,1.8-0.9,3.2-1.9,4.2c-0.9,1-2.2,1.7-4,2.1c-0.8,0.2-1.6,0.3-2.6,0.5c-1.8,0.2-3.6,0.2-5.4,0c-1-0.1-1.8-0.3-2.6-0.5
+                                        c-1.7-0.4-3-1.1-3.9-2.1c-0.9-1-1.5-2.4-1.9-4.2c-0.3-1.8-0.5-4.2-0.5-7V18c0-2.9,0.1-5.2,0.4-7c0.3-1.8,0.8-3.2,1.7-4.2
+                                        c0.8-1,2-1.7,3.5-2.1c0.6-0.1,1.3-0.3,2-0.4C83,4,85.4,4,87.7,4.3c1.2,0.1,2.3,0.3,3,0.5c1.5,0.4,2.7,1.1,3.5,2.1
+                                        c0.8,1,1.4,2.4,1.7,4.2c0.3,1.8,0.4,4.1,0.4,7V95.1z">
+                                </path>
+                            </g>
+                        </svg> -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="preloader">
+            <!-- <div id="pyramid-container">
+                <div id="top-row-container">
+                    <div id="frame-id1" class="frame10"><div id="boll10"></div></div>
+                </div>
+                <div id="third-row-container">
+                    <div id="frame-id2" class="frame9"><div id="boll9"></div></div>
+                    <div id="frame-id3" class="frame8"><div id="boll8"></div></div>
+                </div>
+                <div id="second-row-container">
+                    <div id="frame-id4" class="frame7"><div id="boll7"></div></div>
+                    <div id="frame-id5" class="frame6"><div id="boll6"></div></div>
+                    <div id="frame-id6" class="frame5"><div id="boll5"></div></div>
+                </div>
+                <div id="bottom-row-container">
+                    <div id="frame-id7" class="frame4"><div id="boll4"></div></div>
+                    <div id="frame-id8" class="frame3"><div id="boll3"></div></div>
+                    <div id="frame-id9" class="frame2"><div id="boll2"></div></div>
+                    <div id="frame-id10" class="frame1"><div id="boll1"></div></div>
+                </div>
+            </div>
+
+
+
+                <div id="mini-pyramid-container">
+                    <div id="mini-top-row-container">
+                        <div class="mini-ball1"></div>
+                    </div>
+                    <div id="mini-third-row-container">
+                        <div id="mini-ball2"></div>
+                        <div id="mini-ball3"></div>
+                    </div>
+                    <div id="mini-second-row-container">
+                        <div id="mini-ball4"></div>
+                        <div id="mini-ball5"></div>
+                        <div id="mini-ball6"></div>
+                    </div>
+                    <div id="mini-bottom-row-container">
+                        <div id="mini-ball7"></div>
+                        <div id="mini-ball8"></div>
+                        <div id="mini-ball9"></div>
+                        <div id="mini-ball10"></div>
+                    </div>
+                </div>
+
+                <div id="preloader-logo-container">
+                    <img src="SPP_Logo_Transparent_Background-clean.png" id="preloader-logo-img" alt=" ">
+                </div> -->
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <header>
+            <div class="socials">
+                <!-- <a href="https://www.facebook.com/SpringfieldPrideParadeOrganization" target="_blank">
+                    <i class="icon-facebook">
+                    </i>
+                </a> -->
+
+                <a href="https://www.instagram.com/springfieldprideparadeorg/?hl=en" target="_blank">
+                    <i class="icon-instagram"></i>
+                </a>
+
+                <a href="mailto:info@springfieldprideparade.org" target="_blank">
+                    <i class="icon-email"></i>
+                </a>
+
+            </div>
+
+            <div class="logo">
+
+            </div>
+
+            <div class="extras">
+
+                <div id="hamburger">
+                    <div class="bars">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="bigMenu">
+            <!-- <div class="innerContent">
+                <div class="innerContentWrapper">
+                    <nav class="mainMenu">
+                        <ul>
+                            <li class="bigTitle link">
+                                <a class="active " href="/" title="Home">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="bigTitle link">
+                                <a class="hashtagLink" target="_self" href="/#legends" title="Legends">
+                                    Meet the Board
+                                </a>
+                            </li>
+                            <li class="bigTitle link">
+                                <a class="hashtagLink" target="_self" href="/#chefs" title="Chefs">
+                                        Buy Tickets
+                                </a>
+                            </li>
+                            <li class="bigTitle link">
+                                <a class="hashtagLink" target="_self" href="/#friends" title="Friends">
+                                    Friends
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="footerWrapper">
+                        <div class="socials">
+                            <a href="https://www.instagram.com/legendsloungenl/" target="_blank">
+                                <i class="icon-instagram">
+                                </i>
+                            </a>
+                        </div>
+
+                        <div class="mail">
+                            <a href="mailto:info@legendslounge.nl">
+                                info@legendslounge.nl
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+
+        <div data-scroll-container="" class="pageScroll">
+            <div data-scroll-section="" data-scroll-section-inview="" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1; pointer-events: all;">
+                <div class="pageWrapper">
+                    <div class="pageInnerWrapper">
+                        <div class="sections">
+                            <section class="headerBlock">
+                                <div class="introWrapper">
+                                    <div class="background parText">
+                                        <div class="backgroundWrapper">
+
+                                            <video autoplay loop muted playsinline>
+                                                <source type="video/mp4" src="stock-footage-golden-dimond-eggs-background-loop-1.mp4">
+                                            </video>
+
+                                            <video autoplay loop muted playsinline>
+                                                <source type="video/mp4" src="stock-footage-golden-dimond-eggs-background-loop-1.mp4">
+                                            </video>
+
+                                            <video autoplay loop muted playsinline>
+                                                <source type="video/mp4" src="stock-footage-golden-dimond-eggs-background-loop-1.mp4">
+                                            </video>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="headerContent">
+                                        <h1 class="titles">
+                                            <div class="first title is-inview" data-scroll="" data-scroll-speed="-3" data-scroll-position="top" data-scroll-direction="horizontal" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="title">
+                                                    <span class="extraTitle">
+                                                        Springfield Pride Parade <br> Presents
+                                                    </span>
+                                                    You Ball
+                                                </span>
+
+                                            </div>
+
+                                            <div class="second title parText is-inview" data-scroll="" data-scroll-speed="2.5" data-scroll-position="top" data-scroll-direction="horizontal" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="extraTitle">
+                                                    A Fundraising Gala<br>
+                                                <span>
+                                                    Thursday, June 1st, 2023
+                                                </span>
+                                                </span>
+                                            </div>
+                                        </h1>
+                                    </div>
+                                </div>
+
+                                <div class="extras">
+                                    <div class="left">
+                                        <div class="text parText is-inview" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 62.05, 0, 1);">
+                                            <span class="normal">
+                                                Home of Legends
+                                            </span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo excepturi molestias at quisquam saepe, doloremque fuga, tenetur obcaecati iste ducimus molestiae commodi consequatur dolorum itaque nesciunt quas. Consequuntur, animi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- <div class="previous arrow">
+                                <div class="line">
+                                </div>
+                            </div>
+                            <div class="next arrow">
+                                <div class="line">
+                                </div>
+                            </div> -->
+
+                            <section class="legendsBlock" data-id="legends">
+                                <div class="intro">
+                                    <div class="introContent">
+                                        <h1 class="titles parText" data-scroll="" data-scroll-speed="1" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                            <div class="first title parText" data-scroll="" data-scroll-speed="1" data-scroll-direction="horizontal" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="title">
+                                                    <span class="extraTitle">
+                                                        Honorary
+                                                    </span>
+                                                    Co-Chairs
+                                                </span>
+                                            </div>
+                                            <div class="second title parText" data-scroll="" data-scroll-speed="-0.5" data-scroll-direction="horizontal" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="title">
+                                                </span>
+                                            </div>
+                                        </h1>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="container ">
+                                    <div class="image-row">
+                                        <div class="MultiCarousel" data-items="1,2,3,4" data-slide="3" id="MultiCarousel"  data-interval="3000">
+                                            <div class="MultiCarousel-inner">
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="pad15">
+                                                        <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="Image" />
+
+
+
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Ronald<br>Koeman</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- <button class="btn btn-primary leftLst"><</button> -->
+                                            <!-- <button class="btn btn-primary rightLst">></button> -->
+
+                                            <div class="previous arrow btn btn-primary leftLst">
+                                                <div class="line">
+                                                </div>
+                                            </div>
+
+                                            <div class="next arrow btn btn-primary rightLst">
+                                                <div class="line">
+                                                </div>
+                                            </div>
+
+                                             <!-- <div class="previous arrow">
+                                <div class="line">
+                                </div>
+                            </div>
+                            <div class="next arrow">
+                                <div class="line">
+                                </div>
+                            </div> -->
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+
+
+
+                            <!-- <section class="legendsBlock" data-id="legends">
+                                <div class="intro">
+                                    <div class="introContent">
+                                        <h1 class="titles parText" data-scroll="" data-scroll-speed="1" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                            <div class="first title parText" data-scroll="" data-scroll-speed="1" data-scroll-direction="horizontal" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="title">
+                                                    <span class="extraTitle">
+                                                        Meet the
+                                                    </span>
+                                                    Board
+                                                </span>
+                                            </div>
+                                            <div class="second title parText" data-scroll="" data-scroll-speed="-0.5" data-scroll-direction="horizontal" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                <span class="title">
+                                                </span>
+                                            </div>
+                                        </h1>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="sliderWrapper">
+                                    <div class="slider">
+                                        <div class="wrapper">
+                                            <div class="previous arrow">
+                                                <div class="line">
+                                                </div>
+                                            </div>
+                                            <div class="next arrow">
+                                                <div class="line">
+                                                </div>
+                                            </div>
+
+                                            <div class="items">
+                                                <div class="item parText" data-scroll="" data-scroll-speed="0.5" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                    <div class="slides">
+
+                                                        <div class="slide active">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.5"
+
+                                                                    style="background-image: url(https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png);
+
+
+                                                                    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Ronald<br>Koeman</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.5" style="background-image: url(/thumbs/500x0/gfx/legends/guushiddink.jpg); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Guus<br>Hiddink</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.5" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/eric_gerets.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Eric<br>Gerets</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.5" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/twan_scheepers.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Twan <br>Scheepers</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.5" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/soren_lerby.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        S
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Soren <br>Lerby</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item parText" data-scroll="" data-scroll-speed="1" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                    <div class="slides">
+
+                                                        <div class="slide active">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/willyvandekerkhof.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        w
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Willy<br>van de kerkhof</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/philipcocu.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">p</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Philip<br>cocu</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/ernie_brandts.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        E
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Ernie <br>Brandts</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/frank_arnesen.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        F
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Frank <br>Arnesen</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/edward_linkskens.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        E
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Edward <br>Linskens</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item parText" data-scroll="" data-scroll-speed="0.2" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                    <div class="slides">
+                                                        <div class="slide active">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/markvanbommel.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        M
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Mark<br>van Bommel</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/berryvanaerle.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+
+                                                                    <div class="letter">
+                                                                        b
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>berry<br>van aerle</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/wim_jonk.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        W
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Wim <br>Jonk</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/berryvanaerle.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        B
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Berry <br>van Aerle</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/500x0/gfx/legends/hans_van_breukelen.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        H
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Hans <br>van Breukelen</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="item responsive parText" data-opacity-fade="true">
+                                                    <div class="slides">
+
+                                                        <div class="slide active">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/0x500/gfx/legends/ronaldkoeman.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        r
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text"><p>Ronald<br>Koeman</p></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/0x500/gfx/legends/willyvandekerkhof.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">w</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text"><p>Willy<br>van de kerkhof</p></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/0x500/gfx/legends/markvanbommel.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        M
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text"><p>Mark<br>van Bommel</p></div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/0x500/gfx/legends/guushiddink.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        g
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Guus<br>Hiddink</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="slide">
+                                                            <div class="image">
+                                                                <div class="backgroundWrapper">
+                                                                    <div class="background lazy lazyBackground" data-scroll="" data-scroll-speed="0.2" style="background-image: url(&quot;/thumbs/0x500/gfx/legends/philipcocu.jpg&quot;); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);" data-scroll-offset="-400">
+                                                                    </div>
+                                                                    <div class="letter">
+                                                                        p
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="textWrapper parText" data-opacity-fade="true">
+                                                                <div class="text">
+                                                                    <p>Philip<br>cocu</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="timerWrapper parText" data-scroll="" data-scroll-speed="0.5" data-scroll-offset="-400" style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+
+                                                <div class="timer">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 100 100" xml:space="preserve">
+                                                        <circle transform="rotate(-90 50 50)" class="circle" cx="50" cy="50" r="47" stroke-width="5">
+                                                        </circle>
+                                                        <circle transform="rotate(-90 50 50)" class="another-circle" cx="50" cy="50" r="47" stroke-width="5">
+                                                        </circle>
+                                                    </svg>
+
+                                                    <div class="circleCenter">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
