@@ -928,12 +928,7 @@ input:checked ~ .tab-content {
   -moz-text-fill-color:transparent;
   color:#a58945;
   background-size:cover;
-<<<<<<< HEAD
-  background-image:url(/assets/Gold_1_new.jpg);
-  margin-bottom: 4%;
-=======
-  background-image:url(./Gold_1_new.jpg);
->>>>>>> 764ed622cc831d9a156dd53d8ddaf3ba3973f093
+  background-image:url(./assets/Gold_1_new.jpg);
 }
 
 
