@@ -9,31 +9,80 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.cdnfonts.com/css/nickainley" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <script src="index.js"></script>
     </head>
 
 
 
     <body>
 
-        <content class="silde-menu">
-            <input id="hamburger" class="hamburger" type="checkbox"/>
-                <label class="hamburger" for="hamburger">
-                    <i class="bar"></i>
-                    <text>
-                        <close></close>
-                        <open></open>
-                    </text>
-                </label>
+        <!-- <div class="preloader">
 
-            <section class="drawer-list">
-                  <ul>
-                    <li><a href="#">dashboard</a></li>
-                    <li><a href="#">notifications</a></li>
-                    <li><a href="#">system administration</a></li>
-                    <li><a href="#">support</a></li>
-                </ul>
-            </section>
-        </content>
+            <div id="pyramid-container">
+
+                <div id="top-row-container">
+                    <div id="frame-id1" class="frame10">
+                        <div id="boll10"></div>
+                    </div>
+                </div>
+
+                <div id="third-row-container">
+                    <div id="frame-id2" class="frame9">
+                        <div id="boll9"></div>
+                    </div>
+                    <div id="frame-id3" class="frame8">
+                        <div id="boll8"></div>
+                    </div>
+                </div>
+
+                <div id="second-row-container">
+                    <div id="frame-id4" class="frame7">
+                        <div id="boll7"></div>
+                    </div>
+                    <div id="frame-id5" class="frame6">
+                        <div id="boll6"></div>
+                    </div>
+                    <div id="frame-id6" class="frame5">
+                        <div id="boll5"></div>
+                    </div>
+                </div>
+
+                <div id="bottom-row-container">
+                    <div id="frame-id7" class="frame4">
+                        <div id="boll4"></div>
+                    </div>
+                    <div id="frame-id8" class="frame3">
+                        <div id="boll3"></div>
+                    </div>
+                    <div id="frame-id9" class="frame2">
+                        <div id="boll2"></div>
+                    </div>
+                    <div id="frame-id10" class="frame1">
+                        <div id="boll1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="title-container">
+                <img src="/assets/SPP_Logo_Transparent_Background-clean.png" id="title-img" alt=" ">
+            </div>
+
+        </div> -->
+
+
+
+
+
+        <div class="side-menu" id="side-menu">
+            <div class="close-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18 18l-6-6m0 0L6 6m6 6l6-6m-6 6l-6 6"/></svg>
+            </div>
+            <a href="#co-chair-gallery">Honorary Co-Chairs</a>
+            <a href="#event-details">Event Details</a>
+            <a href="#">system administration</a>
+            <a href="#">support</a>
+        </div>
+
 
         <div class="navbar">
             <div class="socials">
@@ -55,8 +104,15 @@
 
             <div class="logo">
                 <a href="https://www.springfieldprideparade.org/pride2023">
-                    <img src="./Springfield Pride Parade Logo_WHITE Font.png" alt="">
+                    <img src="./assets/Springfield Pride Parade Logo_WHITE Font.png" alt="">
                 </a>
+            </div>
+
+            <div class="menu-icon">
+
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M4 18q-.425 0-.713-.288T3 17q0-.425.288-.713T4 16h16q.425 0 .713.288T21 17q0 .425-.288.713T20 18H4Zm0-5q-.425 0-.713-.288T3 12q0-.425.288-.713T4 11h16q.425 0 .713.288T21 12q0 .425-.288.713T20 13H4Zm0-5q-.425 0-.713-.288T3 7q0-.425.288-.713T4 6h16q.425 0 .713.288T21 7q0 .425-.288.713T20 8H4Z"/>
+                </svg>
             </div>
 
         </div>
@@ -67,7 +123,7 @@
         </div>
 
         <div class="banner">
-            <img src="./ezgif.com-gif" alt="">
+            <img src="./assets/ezgif.com-gif" alt="">
             <span>You Ball</span>
         </div>
 
@@ -76,13 +132,19 @@
             <!-- <span> Thursday, June 1st 2023</span> -->
         </div>
 
-        <div class="event-details">
+        <div class="event-details" id="event-details">
             <div class="event-details-inner">
               <h2>Event <b>Details</b></h2>
+<<<<<<< HEAD
 
                 <!-- <div class="tab">
                   <input type="checkbox" id="chck1"> -->
                   <!-- <label class="tab-label" for="chck1">
+=======
+                <div class="tab">
+                  <input type="checkbox" id="chck1">
+                    <label class="tab-label" for="chck1">
+>>>>>>> 4752c1a7b822f35448fb40b7a1c1c7cda14d4aee
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M213.66 122.34a8 8 0 0 1 0 11.32l-80 80a8 8 0 0 1-11.32 0l-80-80a8 8 0 0 1 11.32-11.32L128 196.69l74.34-74.35a8 8 0 0 1 11.32 0Zm-91.32 11.32a8 8 0 0 0 11.32 0l80-80a8 8 0 0 0-11.32-11.32L128 116.69L53.66 42.34a8 8 0 0 0-11.32 11.32Z"/></svg>
                   </label> -->
 
@@ -109,10 +171,15 @@
                        <p>Springfield, MA 01105</p>
                     </div>
 
+<<<<<<< HEAD
                   <!-- </div> -->
                 <!-- </div> -->
 
 
+=======
+                  </div>
+                </div>
+>>>>>>> 4752c1a7b822f35448fb40b7a1c1c7cda14d4aee
             </div>
         </div>
 
@@ -130,32 +197,28 @@
                 </p>
             </div>
             <div class="event-desc-right">
+<<<<<<< HEAD
                 <img src="./egg_and_lady.png" alt="">
+=======
+                <img src="./assets/egg-inspo.jpg" alt="">
+>>>>>>> 4752c1a7b822f35448fb40b7a1c1c7cda14d4aee
             </div>
-
         </div>
 
 
+        <div class="co-chair-gallery-top-header">
+            <p>Honorary</p>
+        </div>
 
-        <div class="co-chair-gallery">
-            <div class="co-chair-gallery-top-header">
-                <p>Honorary</p>
-            </div>
+        <div class="co-chair-gallery-btm-header">
+            <p>Co-Chairs</p>
+        </div>
 
-            <div class="co-chair-gallery-btm-header">
-                <p>Co-Chairs</p>
-            </div>
-
-            <!-- <div class="fixed">
-                <p class="top">Honorary</p>
-                <p class="bottom">Co-Chairs</p>
-            </div> -->
-
+        <div class="co-chair-gallery" id="co-chair-gallery">
             <div class="grid">
                 <div class="grid-item">
                     <figure>
                         <img src="https://www.pngfind.com/pngs/m/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.png" alt="">
-
                         <figcaption>Image Title</figcaption>
                     </figure>
                 </div>
@@ -184,10 +247,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
 
 
 
