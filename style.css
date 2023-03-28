@@ -445,7 +445,7 @@ a {
 
 
 .navbar {
-  margin: -3vh auto;
+  margin: -1vh auto;
 }
 
 
@@ -1078,6 +1078,8 @@ display:block;left:100px;margin-bottom:10px;}
   overflow: hidden;
   color: #fff;
   margin-top: 4%;
+  font-family:'Poppins',serif;
+  text-align: center;
 }
 
 
@@ -1090,12 +1092,38 @@ display:block;left:100px;margin-bottom:10px;}
   color: #fff;
 }
 
-.advert-right p,
-.advert-left h2 {
-  margin-bottom: 1%;
+.advert-right p{
+  margin-bottom: 3%;
   /* color: #fff; */
 }
 
+.advert h2 {
+  text-align: center;
+  font-family:'Poppins',serif;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:1.23vw;
+  color: #fff;
+}
+
+.advert-header {
+  /* text-align: center; */
+  margin-top: -.5%;
+  font-family:"Libre Baskerville",serif;
+  font-size:7vw;
+  font-weight:600;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.inline {
+  display: inline;
+}
+
+.gold {
+  color: #a58945;
+}
 
 
 /*----------- //////////////////// FOOTER  ///////////////////----------- */
